@@ -1,0 +1,9 @@
+{
+  "name": "gaudy-leds",
+  "version": "0.0.1",
+  "dependencies": {
+    "chromath": "~0.0.2",
+    "commander": "~2.1.0",
+    "udev": "~0.1.0"
+  }
+}
