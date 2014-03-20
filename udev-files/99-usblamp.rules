@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", DRIVER=="usbled", RUN+="/etc/udev/symlink-usblamp.sh"
