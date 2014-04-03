@@ -231,7 +231,7 @@ function cmd_sweep(what) {
   }, 10);
 }
 
-function main() {
+exports.main = function main(argsToParse) {
   var program = require('commander');
 
   program
@@ -290,7 +290,6 @@ function main() {
     .description('animate a static pattern like rainbow across the lights')
     .action(cmd_sweep);
 
-  program.parse(process.argv);
-}
-main();
+  program.parse(argsToParse);
+};
 

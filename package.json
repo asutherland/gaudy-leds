@@ -1,6 +1,15 @@
 {
   "name": "gaudy-leds",
   "version": "0.0.1",
+  "description": "control of linux usbled devices such as the Dream Cheeky webmail notifier",
+  "keywords": ["leds"],
+  "homepage": "https://github.com/asutherland/gaudy-leds",
+  "license": "MIT",
+  "author": "Andrew Sutherland <asutherland@asutherland.org>",
+  "main": "ledcontrol.js",
+  "bin": {
+    "gaudy-leds": "./bin/gaudy-leds"
+  },
   "dependencies": {
     "chromath": "~0.0.2",
     "commander": "~2.1.0",
